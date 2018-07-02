@@ -386,6 +386,7 @@ export default class QRScannerView extends Component {
         isShowScanBar: PropTypes.bool,
         bottomMenuStyle: PropTypes.object,
         onScanResultReceived: PropTypes.func,
+        barCodeTypes: PropTypes.array,
     };
 
     constructor(props) {
