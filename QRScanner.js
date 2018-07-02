@@ -499,3 +499,7 @@ const styles = StyleSheet.create({
         bottom: 0,
     }
 });
+
+
+const BarCodeType = Camera.constants.BarCodeType;
+export { BarCodeType };
