@@ -4,6 +4,6 @@
  * Desc:
  */
 
-import QRScannerView from './QRScanner';
+import QRScannerView, { BarCodeType } from './QRScanner';
 
-export {QRScannerView}
+export {QRScannerView, BarCodeType}
