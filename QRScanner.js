@@ -386,7 +386,7 @@ export default class QRScannerView extends Component {
         isShowScanBar: PropTypes.bool,
         bottomMenuStyle: PropTypes.object,
         onScanResultReceived: PropTypes.func,
-        barCodeTypes: PropTypes.array,
+        cameraProps: PropTypes.any,
     };
 
     constructor(props) {
@@ -399,6 +399,7 @@ export default class QRScannerView extends Component {
         return (
             <View style={{flex: 1}}>
                 <Camera
+                    {...this.props.cameraProps}
                     onBarCodeRead={this.props.onScanResultReceived}
                     style={{flex: 1}}
                 >
