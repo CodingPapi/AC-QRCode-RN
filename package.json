@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react-native-camera": "^1.1.4"
+    "react-native-camera": "https://github.com/CodingPapi/react-native-camera.git#046rn"
   },
   "keywords": [
     "react-native",
