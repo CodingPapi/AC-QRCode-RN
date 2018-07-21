@@ -6,4 +6,4 @@
 
 import QRScannerView, { BarCodeType } from './QRScanner';
 
-export {QRScannerView, BarCodeType}
+export { QRScannerView, BarCodeType }
